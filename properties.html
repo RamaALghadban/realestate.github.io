@@ -1,0 +1,515 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" >
+    <meta content="real estae, akian, properties">
+    <link href="stylesheet.css" rel="stylesheet"/>
+    <link rel="website icon" type="png" href="images/akian logo1.png"/>
+    <script type="text/javascript" 
+    src="jquery-3.7.1.js"></script>
+    <script type="text/javascript" language="javascript" src="JS.js"></script>
+    
+    <title>
+    AKIAN | Properties
+    </title>
+   
+    </head>
+    <body class="font-style" onload="generateCaptcha()">
+        <header class="header" ></header>
+        <p class="maintext">Avialable Properties:</p>
+        <div class="HeaderDiv">
+            <p class="headerp">
+                <a  href="home.html"><button class="nvbarButton"><b>Home</b></button></a>
+                <a  href="properties.html"><button class="nvbarButton"><b>Properties</b></button></a>
+                <a  href="ABOUT%20US.html"><button class="nvbarButton"><b>About us</b></button></a>
+                
+            </p>
+            </div>  
+        <hr width="25%">
+
+    <table class="table_1" name="properties_table" id="properties_table" cellspacing="10" align="center">
+        <tr>
+            <th class="tabble_cell_font">City</th>
+            <th class="tabble_cell_font">Details</th>
+            <th class="tabble_cell_font">Rent Fee</th>
+            <th class="tabble_cell_font">Show More Details</th>
+            <th class="tabble_cell_font">Choose</th>
+        </tr> 
+        <tr class="tr_align" id="first_apartment_row">
+            <td>
+                أورورا، مارينا بروميناد، دبي مارينا، دبي
+            </td>
+            <td>
+                1,431 قدم مربع
+            </td>
+            <td>
+                150 000 AED
+            </td>
+        
+            <td>
+                <form>
+                    <input type="button" name="details_button1" class="details_button" id="details_button1"  onclick="showImages_1()">
+                    
+                </form>
+            </td>
+            <td name="apartment">
+                <form>
+                 <input type="radio" id="radio" value="150000" name="radio">
+                </form>
+            </td>
+           
+        </tr>
+
+        <tr id="imageRow1" class="tr_align">
+            <td>
+                <img src="images/apartment1/1 (5).webp"  class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment1/1 (1).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment1/1 (2).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment1/1 (3).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment1/1 (4).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+        </tr>
+
+        <tr class="tr_align">
+            <td>
+                أورورا، مارينا بروميناد، دبي مارينا، دبي
+            </td>
+            <td>
+                1,405 قدم مربع
+            </td>
+            <td>
+                175,000 AED
+            </td>
+            <td>
+                <form>
+                    <input type="button" name="details_button2" class="details_button" onclick="showImages_2()">
+                </form>
+            </td>
+            <td name="apartment">
+                <form>
+                 <input type="radio" id="radio" value="175000" name="radio">
+                </form>
+            </td>
+        </tr>
+        <tr id="imageRow2" class="tr_align" >
+            <td>
+                <img src="images/apartment2/2 (1).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment2/2 (2).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment2/2 (3).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment2/2 (4).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment2/2 (5).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+        </tr>   
+
+
+        <tr class="tr_align">
+            <td>
+                أورورا، مارينا بروميناد، دبي مارينا، دبي
+            </td>
+            <td>
+                1,431 قدم مربع
+            </td>
+            <td>
+                145,000 AED
+            </td>
+            <td>
+                <form>
+                    <input type="button" name="details_button3" class="details_button" onclick="showImages_3()" >
+                </form>
+            </td>
+            <td name="apartment">
+                <form>
+                 <input type="radio" id="radio" value="145000" name="radio">
+                </form>
+            </td>
+        </tr>
+        <tr id="imageRow3" class="tr_align" >
+            <td>
+                <img src="images/apartment3/3 (1).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment3/3 (2).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment3/3 (3).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment3/3 (4).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment3/3 (5).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+        </tr>   
+        <tr class="tr_align">
+            <td>
+                ترايدنت مارينا سكيب أفانت تاور، ترايدنت مارينا سكيب، دبي مارينا، دبي
+            </td>
+            <td>
+                2,168 قدم مربع
+            </td>
+            <td>
+                329,000 AED
+            </td>
+            <td>
+                <form>
+                    <input type="button" name="details_button4" class="details_button" onclick="showImages_4()">
+                </form>
+            </td>
+            <td name="apartment">
+                <form>
+                 <input type="radio" id="radio" value="329000" name="radio">
+                </form>
+            </td>
+        </tr>
+        <tr id="imageRow4" class="tr_align" >
+            <td>
+                <img src="images/apartment4/4 (1).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment4/4 (2).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment4/4 (3).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment4/4 (4).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment4/4 (5).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+        </tr>   
+        <tr class="tr_align">
+            <td>
+                ذا تورش، دبي مارينا، دبي
+            </td>
+            <td>
+                886 قدم مربع
+            </td>
+            <td>
+                90,000 AED
+            </td>
+            <td>
+                <form>
+                    <input type="button" name="details_button5" class="details_button" onclick="showImages_5()">
+                </form>
+            </td>
+            <td name="apartment">
+                <form>
+                 <input type="radio" id="radio" value="90000" name="radio">
+                </form>
+            </td>
+        </tr>
+        <tr id="imageRow5" class="tr_align" >
+            <td>
+                <img src="images/apartment5/5 (1).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment5/5 (2).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment5/5 (3).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment5/5 (4).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment5/5 (5).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+        </tr>   
+
+        <tr class="tr_align">
+            <td>
+                ديلفين، مارينا بروميناد، دبي مارينا، دبي
+            </td>
+            <td>
+                1,366 قدم مربع
+            </td>
+            <td>
+                220,000 AED
+            </td>
+            <td>
+                <form>
+                    <input type="button" name="details_button6" class="details_button" onclick="showImages_6()">
+                </form>
+            </td>
+            <td name="apartment">
+                <form>
+                 <input type="radio" id="radio" value="220000" name="radio">
+                </form>
+            </td>
+        </tr>
+
+
+        <tr id="imageRow6" class="tr_align" >
+            <td>
+                <img src="images/apartment6/6 (1).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment6/6 (2).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment6/6 (3).webp" class="property_img hover-zoom hover-zoom:hover" >
+            </td>
+            <td>
+                <img src="images/apartment6/6 (4).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment6/6 (5).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+        </tr>   
+
+        <tr class="tr_align">
+            <td>
+                ترايدنت جراند ريزيدنس، دبي مارينا، دبي
+            </td>
+            <td>
+                1,603 قدم مربع
+            </td>
+            <td>
+                170,000 AED
+            </td>
+            <td>
+                <form>
+                    <input type="button" name="details_button7" class="details_button" onclick="showImages_7()">
+                </form>
+            </td>
+            <td name="apartment">
+                <form>
+                 <input type="radio" id="radio" value="170000" name="radio">
+                </form>
+            </td>
+        </tr>
+
+        <tr id="imageRow7" class="tr_align" >
+            <td>
+                <img src="images/apartment7/7 (1).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment7/7 (2).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment7/7 (3).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment7/7 (4).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment7/7 (5).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+        </tr>   
+
+        <tr class="tr_align">
+            <td>
+                ذا سيدارز، ياس ايكرز، جزيرة ياس، أبوظبي
+            </td>
+            <td>
+                2,420 قدم مربع
+            </td>
+            <td>
+                3,500,000 AED
+            </td>
+            <td>
+                <form>
+                    <input type="button" name="details_button8" class="details_button" onclick="showImages_8()">
+                </form>
+            </td>
+            <td  name="apartment">
+                <form>
+                 <input type="radio" id="radio" value="3500000" name="radio">
+                </form>
+            </td>
+        </tr>
+
+
+        <tr id="imageRow8" class="tr_align" >
+            <td>
+                <img src="images/apartment8/8 (1).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment8/8 (2).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment8/8 (3).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment8/8 (4).webp" class="property_img hover-zoom hover-zoom:hover" >
+            </td>
+            <td>
+                <img src="images/apartment8/8 (5).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+        </tr>   
+
+        <tr class="tr_align">
+            <td>
+                وست ياس، جزيرة ياس، أبوظبي
+            </td>
+            <td>
+                11,722 قدم مربع
+            </td>
+            <td>
+                35,000,000 AED
+            </td>
+            <td >
+                <form>
+                    <input type="button" name="details_button9" class="details_button" onclick="showImages_9()">
+                </form>
+            </td>
+            <td  name="apartment">
+                <form>
+                 <input type="radio" id="radio" value="35000000" name="radio">
+                </form>
+            </td>
+        </tr>
+        <tr id="imageRow9" class="tr_align" >
+            <td>
+                <img src="images/apartment9/9 (1).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment9/9 (2).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment9/9 (3).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment9/9 (4).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment9/9 (5).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+        </tr>   
+        <tr class="tr_align">
+            <td>
+                داماك غالية، الضاحية 18، قرية جميرا الدائرية، دبي
+            </td>
+            <td>
+                674 قدم مربع
+            </td>
+            <td>
+                830,000 AED
+            </td>
+            <td>
+                <form>
+                    <input type="button" name="details_button10" class="details_button" onclick="showImages_10()">
+                </form>
+            </td>
+            <td  name="apartment">
+                <form>
+                 <input type="radio" id="radio" value="830000" name="radio">
+                </form>
+            </td>
+        </tr>
+        <tr id="imageRow10" class="tr_align" >
+            <td>
+                <img src="images/apartment10/10 (1).jpg" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment10/10 (2).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment10/10 (3).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment10/10 (4).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+            <td>
+                <img src="images/apartment10/10 (5).webp" class="property_img hover-zoom hover-zoom:hover">
+            </td>
+        </tr>   
+        <tr class="tr_align">
+            <td colspan="5">
+                <form>
+                    <input type="button" value="Continue" class="submit_button" name="submit_button" id="submit_button">
+                </form>
+            </td>
+        </tr>
+        
+    </table>
+    <div id="result"></div>
+    
+    <div id="form-container">
+    <form id="form" name="form" onsubmit="return choose()" >
+        
+        <input class="input" type="textbox" name="name_textbox" placeholder="ادخل الاسم الكامل (باللغة العربية)" id="name_textbox">
+        <input class="input" type="number" name="NID" placeholder="ادخل رقمك الوطني" id="NID" required autofocus>
+        <input class="input" type="date" id="birth_date">
+        <input class="input" type="number" name="phone_number" placeholder="ادخل رقم الموبايل" id="phone_number">
+        <div class="captcha1">
+            <!--ملف محمد-->
+            <div class="captcha-container">
+                <canvas id="captchaCanvas" width="200" height="100"></canvas>
+                <button id="refreshButton">Refresh</button>
+                <input type="text" id="captchaInput" placeholder="Enter CAPTCHA">
+                <button id="submitButton">Submit</button>
+            </div>
+           
+     <!--  <input class="input" type="submit" value="ارسال" id="form_submit_button" > -->
+    </form>
+    </div>
+    
+    </div>
+
+    
+
+
+    <footer id="myFooter">        
+        <p class="footer">Akian.com<br>All rights reserved<br>The #1 site real estate professionals trust</p>     
+        
+ 
+ </footer>
+    <script>
+        
+            
+        document.getElementById('submit_button').onclick = function() {
+            ShoppingCart();
+            
+            var formContainer = document.getElementById('form-container');
+            if (formContainer.style.display == 'none' || formContainer.style.display == '') {
+                formContainer.style.display = 'block';
+            }
+            
+            else {
+                formContainer.style.display = 'none';
+            }
+        }
+        
+
+
+
+    </script>
+
+
+<script>
+    function buttons(){
+        var DetailsButton = document.getElementById('apartment1');
+        if (DetailsButton.style.display == 'none' || DetailsButton.style.display == '') {
+            DetailsButton.style.display = 'block';
+        }
+        
+        else {
+            DetailsButton.style.display = 'none';
+        }
+    }
+</script>
+
+
+
+             
+         </body>
+     </html>
+     

@@ -1,0 +1,529 @@
+
+body{
+    font-family: "Aladin", system-ui;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.HeaderStyle{
+    background-color: white;
+    width: 100%;
+    height: 5%;
+    position: fixed;
+   
+}
+
+
+.long_txt{
+    margin: 0.2in;
+    padding: 0.2in;
+    width: 70%;
+    height: auto;
+    margin-left: 14%;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+
+    
+    color: #263A47;
+    text-align: center;
+    border-radius: 20pt;
+}
+
+.logo{
+    display: inline;
+    position: static;
+     margin-left: 1%;
+    margin-top: 2%;
+    
+    
+}
+.maintext{
+    font-size: 50px;
+    color: #263A47;
+    text-align: center;
+
+}
+
+.square {
+  width: 100%;
+  height: 100px;
+  background-color: #263A47;
+  position: sticky;
+}
+
+.img{
+    width: 100%;
+    border: none;
+    opacity: 100%;
+}
+.row1{
+    background-color: #263A47;
+    border-color: #263A47;
+
+}
+.row2{
+    background-color: #71c6ff;
+    border-color: #71c6ff;
+}
+
+.one {
+    
+    margin: 0.2in;
+    padding: 0.2in;
+    width: 425px;
+    height: 300px;
+    margin-left: 33%;
+    background-color: #263A47;
+    border-style: solid;
+    border-color: #263A47;
+    color: white;
+    text-align: center;
+    border-radius: 20pt;
+    }
+    .three{
+        margin: 0.2in;
+        padding: 0.2in;
+        width: 425px;
+        height: 90px;
+        margin-left: 33%;
+        background-color: #263A47;
+        border-style: solid;
+        border-color: #263A47;
+        color: #71c6ff;
+        text-align: center;
+        border-radius: 20pt;
+        font-size: large;
+        
+ }
+ .four{
+    
+    margin: 0.2in;
+    padding: 0.2in;
+    width: 600px;
+    margin-left: 25%;
+    background-color: #263A47;
+    border-style: solid;
+    border-color: #263A47;
+    color: white;
+    text-align: center;
+    border-radius: 20pt;
+ }
+    .small_txt{
+        
+        font-size: medium;
+        text-align: center;
+        color: #263A47;
+
+    }
+    
+
+.two {margin: 0.2in;
+    padding: 0.2in;
+    width: 30%;
+    height: 15%;
+    margin-left: 33%;
+    background-color: #263A47;
+    border-style: solid;
+    border-color: #263A47;
+    color: white;
+    text-align: center;
+    border-radius: 20pt;
+    }
+    
+    .small_txt{
+        
+        font-size: medium;
+        text-align: center;
+        color: #263A47;
+
+    }
+
+
+.footer{
+        margin: 0.2in;
+        padding: 0.2in;
+        margin-top: 10%;
+        width: 95%;
+        height: 10%;
+        background-color: #263A47;
+        border-style: solid;
+        border-color: #263A47;
+        
+        color: white;
+        text-align: left;
+        font-weight: 100;
+        background-image: url(images/akian\ logo1\ white.png);
+        background-repeat: no-repeat;
+        background-size: 10%;
+        background-position: bottom;
+    }   
+
+.table_1{
+    width: 75%;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: #263A47;
+    
+    border-width: 10px;
+}
+.tabble_cell_font{
+ color: #71c6ff;   
+}
+#form_submit_button{
+    
+    background-color: #71c6ff;
+    color: #263A47;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    margin-top: 3%;
+    cursor: pointer;
+    transition: 500ms;
+}
+.headerp {
+    display: flex;
+    justify-content: center;
+}
+
+.nvbarButton {
+    font-size: 11px;
+    color: #ffffff;
+    background-color: #263A47;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px; /* Adjust the space between the buttons */
+}
+.submit_button{
+    
+    background-color: #71c6ff;
+    color: #263A47;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    margin-top: 3%;
+    cursor: pointer;
+    transition: 500ms;
+}
+.details_button{
+    background-color: #71c6ff;
+    border-radius: 3px;
+    width: 25px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+}
+.tr_align{
+    text-align: center;
+}
+.header{
+    background-image: url(images/akian\ logo1.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center;
+    
+    
+    background-color: white;
+    width: 100%;
+    height: 10%;
+    border-style: solid;
+    border: white;
+   ;
+   
+}
+
+.table_2{
+    margin-top: 10%;
+    width: 40%;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: #263A47;
+    border-width: 10px;
+}
+.input{
+    font-size: 15px;
+    direction: rtl;
+    padding: 15px;
+    border: 0;
+    border-radius: 10px;
+}
+.tr_align2{
+    text-align: left;
+}
+#form{
+    background-color: #263A47;
+    font-size: 15px;
+    direction: rtl;
+    padding: 15px;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 14%;
+}
+
+#form-container {
+    display: none;
+}
+
+.property_img{
+    width: 100%;
+    height: 100%;
+    /*width: 180;
+    height: 240;*/
+}
+#imageRow1{
+    display: none;
+    transform: 0.3s ease;
+}
+#imageRow2{
+    display: none;
+}
+#imageRow3{
+    display: none;
+}
+#imageRow4{
+    display: none;
+}
+#imageRow5{
+    display: none;
+}
+#imageRow6{
+    display: none;
+}
+#imageRow7{
+    display: none;
+}
+#imageRow8{
+    display: none;
+}
+#imageRow9{
+    display: none;
+}
+#imageRow10{
+    display: none;
+}
+.hover-zoom{
+    transform: 0.3s ease;
+}
+.hover-zoom:hover{
+    transform: scale(1.4);
+}
+
+    
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    .maintext {
+        font-size: 40px;
+    }
+
+    .one, .three, .two {
+        width: 60%;
+        margin: 37px 150px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .maintext {
+        font-size: 30px;
+    }
+
+    .one, .three, .two {
+        width: 80%;
+        margin: 25px 38px;
+    }
+
+    .nvbarButton {
+        width: 100px;
+        font-size: 10px;
+        margin: 0 5px; /* Adjust the space between the buttons */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .maintext {
+        font-size: 24px;
+    }
+
+    .one, .three, .two {
+        width: 90%;
+        margin: 24px 0px;
+    }
+
+    .nvbarButton {
+        width: 90px;
+        font-size: 9px;
+        margin: 0 3px; /* Adjust the space between the buttons */
+    }
+
+    .img {
+        height: auto;
+    }
+}
+@media (max-width: 768px) {
+    .header {
+        height: 80px;
+        background-size: 100px;
+    }
+    .maintext {
+        font-size: 2em;
+    }
+    .nvbarButton {
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+    .long_txt, .four {
+        width: 90%;
+        padding: 1em;
+        margin: 0px 3px
+    }
+    .footer {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        height: 60px;
+        background-size: 80px;
+    }
+    .maintext {
+        font-size: 1.5em;
+    }
+    .nvbarButton {
+        font-size: 0.8em;
+        padding: 6px 12px;
+    }
+    .long_txt, .four {
+        width: 95%;
+        padding: 0.8em;
+    }
+    .footer {
+        font-size: 0.8em;
+    }
+}
+@media (max-width: 768px) {
+    .maintext {
+        font-size: 1.5em;
+    }
+
+    .nvbarButton {
+        font-size: 0.8em;
+        padding: 8px 16px;
+    }
+
+    .long_txt {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .footer {
+        font-size: 0.8em;
+        margin: 13px -10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .maintext {
+        font-size: 1.2em;
+    }
+
+    .nvbarButton {
+        font-size: 0.7em;
+        padding: 6px 12px;
+    }
+
+    .long_txt {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .footer {
+        font-size: 0.7em;
+    }
+
+    .header {
+        background-size: 100px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .HeaderDiv {
+        display: flex;
+        justify-content: center;
+    }
+    .nvbarButton {
+        margin-left: 1%;
+        margin-top: 0;
+    }
+    .maintext {
+        font-size: 3em;
+    }
+    .table_1 {
+        width: 75%;
+    }
+    .footer {
+        text-align: left;
+        background-repeat: no-repeat;
+        background-size: 10%;
+        background-position: bottom;
+    }
+}
+
+/*Captcha Classes*/
+
+body {
+    display: contents;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.captcha-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+#captchaCanvas {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 20%;
+    text-align: center;
+}
+
+#refreshButton, #submitButton {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    background-color: #71c6ff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#captchaInput {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
